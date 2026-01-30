@@ -98,7 +98,7 @@ const App = () => {
         {stage === 'preface' && (
           <motion.div key="preface" initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }} className="relative z-10 w-full max-w-lg h-screen flex flex-col items-center justify-center p-8 text-center">
             <motion.div animate={{ scale: [1, 1.05, 1], rotate: [0, 2, -2, 0] }} transition={{ repeat: Infinity, duration: 5 }} className="w-64 h-64 rounded-[4rem] border-8 border-white shadow-2xl overflow-hidden mb-10">
-              <img src="public/Snapchat-1375650093.jpg" className="w-full h-full object-cover" alt="Cover" />
+              <img src="Snapchat-1375650093.jpg" className="w-full h-full object-cover" alt="Cover" />
             </motion.div>
             <h1 className="text-6xl font-black text-red-600 mb-4 tracking-tighter italic">Bubu's 24</h1>
             <p className="text-xl text-slate-500 italic mb-12 px-6 font-serif">"A journey through the 24 reasons, memories, and dreams that define us."</p>
