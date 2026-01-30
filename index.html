@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+  <head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Happy 24th Bday!</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    // This adds your custom Rose colors even without a config file
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            rose: { 50: '#fff1f2', 100: '#ffe4e6', 500: '#f43f5e', 600: '#e11d48' },
+          },
+          fontFamily: {
+            serif: ['ui-serif', 'Georgia', 'Cambria', 'Times New Roman', 'Times', 'serif'],
+          }
+        }
+      }
+    }
+  </script>
+</head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
